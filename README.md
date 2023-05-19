@@ -1,29 +1,13 @@
 # game-of-thrones-quotes-vueproject
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue.js mini project that uses the API endpoints of https://gameofthronesquotes.xyz/
 
-## Recommended IDE Setup
+Project stack uses SASS preprocessors for CSS generation, routing mechanism of vue-router (tried
+not to use Axios) is used to switch in between different Views. JS scripts are used for JSON 
+deserialization. In styling, Bootstrap buttons and table styles are used. No DB is running to log 
+activity.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Project scope was to use the API endpoints stated above to get data and create a basic webpage as 
+a SPA. Quotes are generated randomly from the API, as seen in the homepage. Character-house details are 
+given in the other two views.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
