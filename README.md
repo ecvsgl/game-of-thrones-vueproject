@@ -8,6 +8,6 @@ deserialization. In styling, Bootstrap buttons and table styles are used. No DB 
 activity.
 
 Project scope was to use the API endpoints stated above to get data and create a basic webpage as 
-a SPA. Quotes are generated randomly from the API, as seen in the homepage. Character-house details are 
-given in the other two views.
+a SPA. Quotes are generated randomly from the API, as seen in the homepage. Character-house details
+are given in the other two views.
 
