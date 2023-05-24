@@ -43,5 +43,5 @@ npm run dev
 Once `npm run dev` command is used, it will start VITE dev environment. Here, you can even 
 experiment with the code! Changes will be observed in real-time thanks to VITE's Hot-Module-Replacement(HMR).
 
-Once done, simply press `q` in the terminal/cmd.
+Once done, simply press `q` in the terminal/cmd to exit.
 
