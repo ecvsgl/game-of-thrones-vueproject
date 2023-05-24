@@ -28,6 +28,8 @@ Required dependencies;
 - Node.js & Node Package Manager (npm)(npm is usually installed along Node.js, via its official installer)
 - Vue.js (can be installed via npm easily, npm would install this once `npm install` is executed but global setup should do better)
 
+Technically, not a dependency but to clone this repository, one would also need Git installed in their system.
+
 After installing the dependencies above to your system, simply open up a new folder then start a 
 terminal/cmd inside the folder and then use the following commands;
 
