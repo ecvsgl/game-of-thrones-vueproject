@@ -11,12 +11,22 @@ Project scope is to use the API endpoints stated above to get data and create a 
 a SPA. Quotes are generated randomly from the API, as seen in the homepage. Character-house details
 are given in the other two views.
 
+## Tech Stack
+
+* Javascript & Vue.js 
+* HTML5 + CSS3
+* SASS & SASS-Loader
+* Vite
+* Vue-router
+* Bootstrap
+* Vitejs/vite-plugin-vue
+
 ## How to try the project out?
 
 Required dependencies;
 
 - Node.js & Node Package Manager (npm)(npm is usually installed along Node.js, via its official installer)
-- Vue.js (can be installed via npm easily)
+- Vue.js (can be installed via npm easily, npm would install this once `npm install` is executed but global setup should do better)
 
 After installing the dependencies above to your system, simply open up a new folder then start a 
 terminal/cmd inside the folder and then use the following commands;
@@ -30,7 +40,7 @@ npm run dev
 ```
 3rd line aboce is to relocate the terminal location to the project folder itself.
 
-Once `npm run dev` command is used, it will start VITE dev environment within Vue.js. Here, you can even 
+Once `npm run dev` command is used, it will start VITE dev environment. Here, you can even 
 experiment with the code! Changes will be observed in real-time thanks to VITE's Hot-Module-Replacement(HMR).
 
 Once done, simply press `q` in the terminal/cmd.
