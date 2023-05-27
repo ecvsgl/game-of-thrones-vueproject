@@ -28,8 +28,6 @@ Required dependencies;
 - Node.js & Node Package Manager (npm)(npm is usually installed along Node.js, via its official installer)
 - Vue.js (can be installed via npm easily, npm would install this once `npm install` is executed but global setup should do better)
 
-Technically, not a dependency but to clone this repository, one would also need Git installed in their system.
-
 After installing the dependencies above to your system, simply open up a new folder then start a 
 terminal/cmd inside the folder and then use the following commands;
 
@@ -40,7 +38,7 @@ cd /game-of-thrones-vueproject/
 npm install
 npm run dev
 ```
-3rd line aboce is to relocate the terminal location to the project folder itself.
+3rd line above is to relocate the terminal location to the project folder itself.
 
 Once `npm run dev` command is used, it will start VITE dev environment. Here, you can even 
 experiment with the code! Changes will be observed in real-time thanks to VITE's Hot-Module-Replacement(HMR).
